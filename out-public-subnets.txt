@@ -1,0 +1,72 @@
+ subnets_info = [
+  {
+    "arn" = "arn:aws:ec2:us-east-1:311141550186:subnet/subnet-0477712e34a09ad66"
+    "assign_ipv6_address_on_creation" = false
+    "availability_zone" = "us-east-1a"
+    "availability_zone_id" = "use1-az4"
+    "cidr_block" = "10.0.1.0/24"
+    "customer_owned_ipv4_pool" = ""
+    "enable_dns64" = false
+    "enable_lni_at_device_index" = 0
+    "enable_resource_name_dns_a_record_on_launch" = false
+    "enable_resource_name_dns_aaaa_record_on_launch" = false
+    "id" = "subnet-0477712e34a09ad66"
+    "ipv6_cidr_block" = ""
+    "ipv6_cidr_block_association_id" = ""
+    "ipv6_native" = false
+    "map_customer_owned_ip_on_launch" = false
+    "map_public_ip_on_launch" = true
+    "outpost_arn" = ""
+    "owner_id" = "311141550186"
+    "private_dns_hostname_type_on_launch" = "ip-name"
+    "tags" = tomap({
+      "Environment" = "dev"
+      "Name" = "expense-dev-public-us-east-1a"
+      "Project" = "expense"
+      "Terraform" = "true"
+    })
+    "tags_all" = tomap({
+      "Environment" = "dev"
+      "Name" = "expense-dev-public-us-east-1a"
+      "Project" = "expense"
+      "Terraform" = "true"
+    })
+    "timeouts" = null /* object */
+    "vpc_id" = "vpc-0504c8d66bfb3046b"
+  },
+  {
+    "arn" = "arn:aws:ec2:us-east-1:311141550186:subnet/subnet-095911e955c4a00e0"
+    "assign_ipv6_address_on_creation" = false
+    "availability_zone" = "us-east-1b"
+    "availability_zone_id" = "use1-az6"
+    "cidr_block" = "10.0.2.0/24"
+    "customer_owned_ipv4_pool" = ""
+    "enable_dns64" = false
+    "enable_lni_at_device_index" = 0
+    "enable_resource_name_dns_a_record_on_launch" = false
+    "enable_resource_name_dns_aaaa_record_on_launch" = false
+    "id" = "subnet-095911e955c4a00e0"
+    "ipv6_cidr_block" = ""
+    "ipv6_cidr_block_association_id" = ""
+    "ipv6_native" = false
+    "map_customer_owned_ip_on_launch" = false
+    "map_public_ip_on_launch" = true
+    "outpost_arn" = ""
+    "owner_id" = "311141550186"
+    "private_dns_hostname_type_on_launch" = "ip-name"
+    "tags" = tomap({
+      "Environment" = "dev"
+      "Name" = "expense-dev-public-us-east-1b"
+      "Project" = "expense"
+      "Terraform" = "true"
+    })
+    "tags_all" = tomap({
+      "Environment" = "dev"
+      "Name" = "expense-dev-public-us-east-1b"
+      "Project" = "expense"
+      "Terraform" = "true"
+    })
+    "timeouts" = null /* object */
+    "vpc_id" = "vpc-0504c8d66bfb3046b"
+  },
+]
